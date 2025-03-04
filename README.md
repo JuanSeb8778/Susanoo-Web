@@ -1,1 +1,3 @@
 "# Susanoo-Web" 
+
+El proyecto esta basado en el dios de la mitologia japonesa "Susanoo", en este podemos ver brevemente su historia y caracteristicas principales. También se hizo un apartado donde se muestra como el susanoo influye en el anime de Naruto Shippuden y se ven varias apariciones de este mismo en la serie. Finalmente se hizo una galeria con algunas ilustraciones del dios en la mitología japonesa.
