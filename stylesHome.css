@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    /* background: linear-gradient(to bottom, #802ac7, #bf1e0f); */
+    background-color: black;
+    font-family: "Work Sans", serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu-container {
+    position: fixed; /* Fija el navbar en la parte superior */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con opacidad baja */
+    padding: 10px 20px; /* Espaciado interno */
+    z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+}
+
+.menu-container .navbar {
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container .navbar .ul li a {
+    position: relative;
+    float: left;
+}
+
+.menu-container .navbar .ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: flex;
+}
+
+.origenes {
+    text-align: right;
+}
+
+.main-info {
+    max-width: 1200px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.image-container {
+    margin-top: 90px; /* Ajusta este valor para separar la imagen del navbar */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con opacidad baja */
+    padding: 30px; /* Espacio interno para la imagen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 1134px;
+    height: 90%;
+}
