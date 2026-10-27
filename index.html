@@ -1,65 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Susanoo · Inicio</title>
-    <link rel="stylesheet" href="stylesHome.css">
+    <meta name="description" content="Susanoo, el dios de la tormenta y el mar en la mitología japonesa: su historia, su familia y sus hazañas.">
+    <meta name="theme-color" content="#141c33">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <header class="header">
-        <div class="menu-container">
-            <nav class="navbar">
-                <ul class="ul">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="indexNaruto.html">Relacion con el anime</a></li>
-                    <li><a href="indexPictures.html">Galeria Susanoo</a></li>
-                </ul>
+<body data-page="home">
+    <a class="skip" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+        <div class="wrap">
+            <a class="brand" href="index.html"><span class="hanko" aria-hidden="true">須</span>Susanoo</a>
+            <nav class="site-nav" aria-label="Principal">
+                <a href="index.html" aria-current="page">Inicio</a>
+                <a href="indexNaruto.html">En Naruto</a>
+                <a href="indexPictures.html">Galería</a>
             </nav>
         </div>
-
     </header>
-    <section class="main-info">
 
-        
-        <div class="image-container">
-            <img class="susano-img" src="images/vp64ptmt7m351.png" alt="susanoo">
+    <main id="contenido">
+        <section class="hero wrap">
+            <div class="hero-text">
+                <p class="kicker">Mitología japonesa</p>
+                <h1>Susanoo</h1>
+                <p class="subtitle">Dios de la tormenta y el mar</p>
+                <p class="lead">Susanoo (también escrito Susano-o o Susano'o) es uno de los dioses más importantes y
+                    fascinantes de la mitología japonesa. Es conocido por su carácter turbulento, impredecible y poderoso,
+                    y protagoniza varias historias del Kojiki y el Nihon Shoki, los textos más antiguos que recopilan la
+                    mitología y la historia de Japón.</p>
+            </div>
+
+            <p class="kanji" lang="ja" aria-label="Susanoo-no-Mikoto en kanji">
+                <span>須</span><span>佐</span><span>之</span><span>男</span><span>命</span>
+                <small>スサノオ</small>
+            </p>
+
+            <figure class="frame">
+                <img src="images/susanoo-orochi-ukiyoe.webp" width="1134" height="705"
+                    alt="Grabado ukiyo-e de Susanoo luchando contra serpientes y dragones rojos entre las olas">
+                <figcaption>Susanoo contra la serpiente Yamata no Orochi, en estilo ukiyo-e.</figcaption>
+            </figure>
+        </section>
+
+        <section class="section wrap" aria-labelledby="h-origenes">
+            <div class="section-head">
+                <span class="mark" lang="ja" aria-hidden="true">家</span>
+                <h2 id="h-origenes">Orígenes y familia</h2>
+            </div>
+            <div class="prose">
+                <p>Susanoo es el dios del mar y las tormentas, hijo de Izanagi e Izanami, los dioses creadores del mundo
+                    según la mitología japonesa. Es hermano de Amaterasu, la diosa del sol, y de Tsukuyomi, el dios de la
+                    luna.</p>
+                <p>Según el Kojiki, Susanoo nació cuando Izanagi se purificó después de visitar el inframundo, Yomi, para
+                    rescatar a Izanami. Al purificarse, Izanagi dio vida a tres dioses: Amaterasu, Tsukuyomi y Susanoo.</p>
+            </div>
+
+            <div class="family">
+                <p class="parents">Izanagi e Izanami<span>Dioses creadores</span></p>
+                <div class="family-line" aria-hidden="true"></div>
+                <ul class="children" aria-label="Los tres hijos de Izanagi">
+                    <li>
+                        <span class="glyph" lang="ja" aria-hidden="true">日</span>
+                        <strong>Amaterasu</strong>
+                        <small>Diosa del sol</small>
+                    </li>
+                    <li>
+                        <span class="glyph" lang="ja" aria-hidden="true">月</span>
+                        <strong>Tsukuyomi</strong>
+                        <small>Dios de la luna</small>
+                    </li>
+                    <li class="is-subject">
+                        <span class="glyph" lang="ja" aria-hidden="true">嵐</span>
+                        <strong>Susanoo</strong>
+                        <small>Dios de la tormenta y el mar</small>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section wrap" aria-labelledby="h-caracteristicas">
+            <div class="section-head">
+                <span class="mark" lang="ja" aria-hidden="true">嵐</span>
+                <h2 id="h-caracteristicas">Características y atributos</h2>
+            </div>
+            <div class="split">
+                <div>
+                    <div class="prose">
+                        <p>Susanoo es conocido por su carácter violento y destructivo, y por su capacidad para provocar
+                            tormentas y desastres naturales. Según el Kojiki, fue desterrado por su comportamiento
+                            incontrolable y tuvo que luchar contra un dragón de ocho cabezas para demostrar su valía.</p>
+                        <p>Después de derrotar al dragón, Susanoo se convirtió en el dios del mar y las tormentas, y se le
+                            asoció con la fertilidad, la agricultura y la protección de los cosechadores de arroz.</p>
+                    </div>
+                </div>
+
+                <aside class="facts" aria-labelledby="h-ficha">
+                    <h3 class="facts-title" id="h-ficha"><span class="hanko" aria-hidden="true">記</span>Ficha</h3>
+                    <dl>
+                    <div>
+                        <dt>Nombre completo</dt>
+                        <dd>Susanoo-no-Mikoto</dd>
+                    </div>
+                    <div>
+                        <dt>Dominio</dt>
+                        <dd>Tormentas y mar</dd>
+                    </div>
+                    <div>
+                        <dt>Padres</dt>
+                        <dd>Izanagi e Izanami</dd>
+                    </div>
+                    <div>
+                        <dt>Su gran hazaña</dt>
+                        <dd>Vencer a Yamata no Orochi, la serpiente de ocho cabezas</dd>
+                    </div>
+                    <div>
+                        <dt>Arma</dt>
+                        <dd>Kusanagi no Tsurugi, la espada que halló en la cola de Orochi</dd>
+                    </div>
+                    <div>
+                        <dt>Fuentes</dt>
+                        <dd>Kojiki (712) y Nihon Shoki (720)</dd>
+                    </div>
+                    </dl>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section wrap" aria-labelledby="h-sigue">
+            <div class="section-head">
+                <h2 id="h-sigue">Sigue explorando</h2>
+            </div>
+            <div class="next">
+                <a href="indexNaruto.html">
+                    <img src="images/susanoo-itachi-sasuke-madara-naruto.webp" alt="" loading="lazy">
+                    <strong>Susanoo en Naruto</strong>
+                    <span>Cómo el anime convirtió al dios en un guerrero de chakra</span>
+                </a>
+                <a href="indexPictures.html">
+                    <img src="images/susanoo5.webp" alt="" loading="lazy">
+                    <strong>Galería</strong>
+                    <span>Ilustraciones del dios en distintos estilos</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <p>Susanoo Web · Proyecto de Juan Sebastián Ángel Ramírez</p>
+            <p>Las imágenes pertenecen a sus autores y se usan con fines educativos.</p>
         </div>
-
-        
-        <div class="text">
-
-            <h1 class="title">Este es Susanoo</h1>
-            <br>
-            <p>Susanoo (también escrito como Susano-o o Susano'o) es uno de los dioses más importantes y fascinantes de la
-                mitología japonesa. Es conocido por su carácter turbulento, impredecible y poderoso, y desempeña un papel
-                central en varias historias del Kojiki y el Nihon Shoki, los textos más antiguos que recopilan la mitología
-                y la historia de Japón.</p>
-
-            <br>
-            <br>
-
-            <h2 class="origenes">Orígenes y familia</h2>
-            <br>
-            <p>Susanoo es el dios del mar y las tormentas, y es hijo de Izanagi e Izanami, los dioses creadores del mundo
-                según la mitología japonesa. Es hermano de Amaterasu, la diosa del sol, y de Tsukuyomi, el dios de la luna.
-                Según el Kojiki, Susanoo nació cuando Izanagi se purificó después de visitar el inframundo, Yomi, para
-                rescatar a Izanami. Al purificarse, Izanagi dio a luz a tres dioses: Amaterasu, Tsukuyomi y Susanoo.</p>
-            <br>
-            <br>
-
-            <h2>Características y atributos</h2>
-            <br>
-            <p>Susanoo es conocido por su carácter violento y destructivo, y por su capacidad para provocar tormentas y
-                desastres naturales. Según el Kojiki, Susanoo fue desterrado al inframundo por su comportamiento
-                incontrolable, y tuvo que luchar contra un dragón de ocho cabezas para demostrar su valía. Después de
-                derrotar al dragón, Susanoo se convirtió en el dios del mar y las tormentas, y se le asoció con la
-                fertilidad, la agricultura y la protección de los cosechadores de arroz.</p>
-        </div>
-    </section>
-
+    </footer>
 </body>
 
 </html>

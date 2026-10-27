@@ -1,53 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Susanoo · Galería</title>
-    <link rel="stylesheet" href="stylesPics.css">
+    <meta name="description" content="Galería de ilustraciones de Susanoo, el dios de la tormenta de la mitología japonesa.">
+    <meta name="theme-color" content="#141c33">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <header class="header">
-        <div class="menu-container">
-            <nav class="navbar">
-                <ul class="ul">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="indexNaruto.html">Relacion con el anime</a></li>
-                    <li><a href="indexPictures.html">Galeria Susanoo</a></li>
-                </ul>
+<body data-page="gallery">
+    <a class="skip" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+        <div class="wrap">
+            <a class="brand" href="index.html"><span class="hanko" aria-hidden="true">須</span>Susanoo</a>
+            <nav class="site-nav" aria-label="Principal">
+                <a href="index.html">Inicio</a>
+                <a href="indexNaruto.html">En Naruto</a>
+                <a href="indexPictures.html" aria-current="page">Galería</a>
             </nav>
         </div>
-
     </header>
 
-     
-     <div class="images-gallery">
-        <div class="text">
-            <h1 class="title">Galeria de Imagenes</h1>
-            <p class="paragraph">Aca veremos algunas ilustraciones que hacen referencia 
-                al dios de la mitologia japonesa Susanoo. Las pocas ilustraciones que tenemos
-                reflejan la atencion al detalle que tienen las personas que generan este tipo de ilustraciones.</p>
-        </div>
-        
-        <div class="susanoo1 susanoo-card">
-            <img src="images/susanoo1.png" alt="Susanoo 1">
-        </div>
-        <div class="susanoo2 susanoo-card">
-            <img src="images/susanoo2.png" alt="Susanoo 2">
-        </div>
-        <div class="susanoo3 susanoo-card">
-            <img src="images/susanoo3.png" alt="Susanoo 3">
-        </div>
-        <div class="susanoo4 susanoo-card">
-            <img src="images/susanoo4.png" alt="Susanoo 4">
-        </div>
-        <div class="susanoo5 susanoo-card">
-            <img src="images/susanoo5.png" alt="Susanoo 5">
-        </div>
-     </div>
+    <main id="contenido">
+        <section class="page-intro wrap">
+            <div class="title-row">
+                <div class="hero-text">
+                    <p class="kicker">Ilustraciones</p>
+                    <h1>Galería</h1>
+                    <p class="lead">Acá veremos algunas ilustraciones que hacen referencia al dios Susanoo, desde grabados
+                        tradicionales hasta versiones modernas. Reflejan la atención al detalle de quienes crean este tipo de
+                        obras. Toca cualquier imagen para verla en grande.</p>
+                </div>
+                <p class="kanji" lang="ja" aria-hidden="true"><span>画</span><span>廊</span></p>
+            </div>
+        </section>
 
+        <section class="wrap" aria-label="Imágenes">
+            <div class="gallery">
+                <button type="button" class="thumb wide" data-index="0">
+                    <span class="img"><img src="images/susanoo2.webp" width="1200" height="800"
+                            alt="Grabado ukiyo-e de Susanoo con su espada entre olas y un dragón"></span>
+                    <span>Susanoo entre olas y un dragón, en grabado ukiyo-e.</span>
+                </button>
+                <button type="button" class="thumb" data-index="1">
+                    <span class="img"><img src="images/susanoo1.webp" width="1200" height="675" loading="lazy"
+                            alt="Ilustración moderna de Susanoo enfrentando a una serpiente verde de ocho cabezas"></span>
+                    <span>Susanoo frente a Yamata no Orochi, la serpiente de ocho cabezas.</span>
+                </button>
+                <button type="button" class="thumb" data-index="2">
+                    <span class="img"><img src="images/susanoo4.webp" width="900" height="600" loading="lazy"
+                            alt="Susanoo de blanco con su espada ante una serpiente gigante"></span>
+                    <span>Susanoo, espada en mano, ante la serpiente.</span>
+                </button>
+                <button type="button" class="thumb" data-index="3">
+                    <span class="img"><img src="images/susanoo3.webp" width="1200" height="630" loading="lazy"
+                            alt="Pintura tradicional japonesa de Susanoo"></span>
+                    <span>Pintura tradicional de Susanoo.</span>
+                </button>
+                <button type="button" class="thumb" data-index="4">
+                    <span class="img"><img src="images/susanoo5.webp" width="800" height="452" loading="lazy"
+                            alt="Ilustración de Susanoo con kimono azul luchando contra un dragón marino"></span>
+                    <span>Susanoo contra un dragón marino, en estilo ukiyo-e moderno.</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="section wrap" aria-labelledby="h-sigue" style="margin-top: clamp(3rem, 7vw, 5rem)">
+            <div class="section-head">
+                <h2 id="h-sigue">Sigue explorando</h2>
+            </div>
+            <div class="next">
+                <a href="index.html">
+                    <img src="images/susanoo-orochi-ukiyoe.webp" alt="" loading="lazy">
+                    <strong>El dios original</strong>
+                    <span>Susanoo en la mitología japonesa</span>
+                </a>
+                <a href="indexNaruto.html">
+                    <img src="images/susanoo-itachi-sasuke-madara-naruto.webp" alt="" loading="lazy">
+                    <strong>Susanoo en Naruto</strong>
+                    <span>Cómo el anime convirtió al dios en un guerrero de chakra</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <dialog class="lightbox" id="visor" aria-label="Imagen ampliada">
+        <figure>
+            <img id="visor-img" src="" alt="">
+            <div class="bar">
+                <figcaption id="visor-cap"></figcaption>
+                <button type="button" id="visor-prev" aria-label="Imagen anterior">‹</button>
+                <button type="button" id="visor-next" aria-label="Imagen siguiente">›</button>
+                <button type="button" id="visor-close">Cerrar</button>
+            </div>
+        </figure>
+    </dialog>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <p>Susanoo Web · Proyecto de Juan Sebastián Ángel Ramírez</p>
+            <p>Las imágenes pertenecen a sus autores y se usan con fines educativos.</p>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            var thumbs = Array.prototype.slice.call(document.querySelectorAll('.thumb'));
+            var visor = document.getElementById('visor');
+            var img = document.getElementById('visor-img');
+            var cap = document.getElementById('visor-cap');
+            var current = 0;
+
+            function show(i) {
+                current = (i + thumbs.length) % thumbs.length;
+                var t = thumbs[current];
+                var src = t.querySelector('img');
+                img.src = src.getAttribute('src');
+                img.alt = src.alt;
+                cap.textContent = t.querySelector('span:last-child').textContent;
+            }
+
+            thumbs.forEach(function (t, i) {
+                t.addEventListener('click', function () {
+                    show(i);
+                    visor.showModal();
+                });
+            });
+
+            document.getElementById('visor-prev').addEventListener('click', function () { show(current - 1); });
+            document.getElementById('visor-next').addEventListener('click', function () { show(current + 1); });
+            document.getElementById('visor-close').addEventListener('click', function () { visor.close(); });
+
+            visor.addEventListener('click', function (e) {
+                if (e.target === visor) visor.close();
+            });
+
+            visor.addEventListener('keydown', function (e) {
+                if (e.key === 'ArrowLeft') show(current - 1);
+                if (e.key === 'ArrowRight') show(current + 1);
+            });
+
+            visor.addEventListener('close', function () {
+                thumbs[current].focus();
+            });
+        })();
+    </script>
 </body>
 
 </html>
