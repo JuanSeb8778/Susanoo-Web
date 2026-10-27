@@ -18,7 +18,7 @@ Sitio web temático sobre **Susanoo**, el dios de la tormenta y el mar en la mit
 ## 🛠️ Tecnologías
 
 - **HTML5** para la estructura de las páginas.
-- **CSS3** con una hoja de estilos por página (`stylesHome.css`, `stylesnaruto.css`, `stylesPics.css`).
+- **CSS3** con una hoja de estilos por página (`stylesHome.css`, `stylesNaruto.css`, `stylesPics.css`).
 
 ## 🚀 Cómo verlo en local
 
